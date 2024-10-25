@@ -1,0 +1,150 @@
+.Taitle{
+    text-align: center;
+    background-color: rgb(53, 53, 245);
+    color: white;
+    padding: 5rem 0;
+}
+.product-boxs{
+    display: flex;
+}
+.product-box{
+    width: 50%;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px dotted white;
+}
+.bigimage{
+    display: flex;
+    width: 75%;
+}
+.bigimage img{
+    width: 100%;
+    padding-left: 2.5rem;
+}
+.smolimages{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.smolimage{
+    width: 100%;
+}
+.smolimage img{
+    margin: 1rem;
+     width: 100%;
+}
+.smolimage img:hover{
+    border: 2px solid orange;
+}
+.product-info{
+    padding-left: 2rem;
+}
+.biddingbox{
+    background-color:white ;
+    padding: 1.5rem;
+    width: 90%;
+}
+.biddingbox>h3{
+    margin: 0;
+}
+.biddingbox p{
+    margin: 0.5rem 0 ;
+}
+.placebidbox input{
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin-right: 1rem;
+}
+.button:hover{
+    background-color: gray;
+}
+.timerboxo{
+    display: flex;
+    justify-content: center;
+    margin:3rem 0;
+  
+}
+.timerboxborder{
+    display: flex;
+    border: 3px solid rgb(76, 118, 153);
+    padding: 1rem;
+    width: 70%;
+    justify-content: center;
+    background-color: #222e50  ;
+}
+.time-title{
+    font-size: 24px;
+    margin: 0;
+    color: #fccb06;
+}
+.timerboxborder p{
+    margin: 0 0.5rem;
+    font-size: 24px;
+    color: #fccb06;
+ 
+}
+.Sub-Taitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin:1rem 0 0.5rem 1rem;
+   border-bottom: 5px solid white;
+   display: inline-block;
+}
+.discription{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-family: inherit;
+
+}
+.bid-history{
+    margin:2rem 0 2rem 1rem;
+    width: 60%;
+    min-height: 10rem;
+    max-height: 25rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.bid-history::-webkit-scrollbar{
+    margin-left: 1rem;
+    color: #edf7f6;
+}
+.bid-history::-webkit-scrollbar-track{
+    background: white; 
+    border-radius: 5px;
+}
+.bid-history::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 190, 190);
+    border-radius: 5px;
+  }
+.bidders-box{
+    width: 98%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    scrollbar-width: normal;
+    scrollbar-color: white;
+}
+.user-img-contaner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.user-img-contaner img{
+    height: 100%;
+}
+.user-bid{
+    margin: 0 1rem;
+}
+.user-bid p{
+    font-size: 17px;
+    margin:0.5rem;
+}

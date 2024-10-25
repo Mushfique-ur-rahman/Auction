@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom right, rgb(167, 247, 223), rgba(142, 112, 212, 0.897));
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .login-link a {
+    color: #000;
+  }
+  .login-link a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  .btn-primary {
+    align-self: center;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 0.3rem 0;
+    font-weight: bold;
+  }
+  
